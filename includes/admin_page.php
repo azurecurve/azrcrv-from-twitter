@@ -346,7 +346,7 @@
 							<td>
 								<input name="tweet-store-all-data" type="checkbox" id="tweet-store-all-data" value="1" <?php checked('1', $options['tweet']['store-all-data']); ?> />
 								<label for="tweet-store-all-data"><span class="description">
-									<?php _e('Store al tweet data (if unmarked, only the tweet id is recorded.', 'from-twitter'); ?>
+									<?php _e('Store all tweet data (if unmarked, only the tweet id is recorded).', 'from-twitter'); ?>
 								</span></label
 							</td>
 						</tr>
