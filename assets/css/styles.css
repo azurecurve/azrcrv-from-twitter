@@ -1,0 +1,10 @@
+#toplevel_page_azrcrv_ft_admin_menu:hover .wp-menu-image, #toplevel_page_azrcrv_ft_admin_menu .current .wp-menu-image, #toplevel_page_azrcrv_ft_admin_menu .wp-has-current-submenu .wp-menu-image {
+	background-position:6px 6px !important;
+}
+.azrcrv_ft_tabs {padding:15px !important;}
+.azrcrv_ft_tabs.invisible {display:none;}
+.azrcrv_ft_horiz {margin:0 0 0 10px;}
+
+table.azrcrv-ft-queries{
+	text-align: left;
+}
