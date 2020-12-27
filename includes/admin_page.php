@@ -96,15 +96,6 @@
 							</td>
 						</tr>
 						
-						<tr>
-							<th scope="row">
-								<?php _e('Menu Position', 'from-twitter'); ?>
-							</th>
-							<td>
-								<input type="number" min=25 max=100 step=1 name="menu-position" class="small-text" value="<?php echo $options['cpt']['menu-position']; ?>">
-							</td>
-						</tr>
-						
 					</table>
 				</p>
 			</div>
