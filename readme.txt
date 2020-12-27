@@ -1,6 +1,6 @@
 === From Twitter ===
 
-Description:	Automate the sending of tweets from your ClassicPress site to Twitter.
+Description:	Automate the retrieval of tweets from Twitter and create posts on your ClassicPress site.
 Version:		1.0.0
 Tags:			tweets,twitter,automatic 
 Author:			azurecurve
@@ -11,16 +11,18 @@ Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
 Tested:			4.9.99
-Text Domain:	to-twitter
+Text Domain:	from-twitter
 Domain Path:	/languages
 License: 		GPLv2 or later
 License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
 
-Automate the sending of tweets from your ClassicPress site to Twitter.
+Automate the retrieval of tweets from Twitter and create posts on your ClassicPress site.
 
 == Description ==
 
 # Description
+
+Automate the retrieval of tweets from Twitter and create posts on your ClassicPress site
 
 From Twitter includes the following functionality;
  * Search Twitter and create tweets as posts or as a Tweet custom post type.
