@@ -111,7 +111,6 @@ function azrcrv_ft_get_option($option_name){
 										),
 						'cpt' => array(
 											'enabled' => 0,
-											'menu-position' => 50,
 										),
 						'post' => array(
 											'type' => 'post',
@@ -200,7 +199,7 @@ function azrcrv_ft_create_tweet_cpt() {
 															'parent' => __('Parent Tweet', 'from-twitter')
 														),
 										'public' => true,
-										'menu_position' => intval(sanitize_text_field($options['cpt']['menu-position'])),
+										'menu_position' => 50,
 										'supports' => array('title', 'comments', 'editor', 'custom-fields'),
 										'taxonomies' => array(''),
 										'menu_icon' => 'dashicons-twitter',
@@ -517,9 +516,6 @@ function azrcrv_ft_save_options(){
 		}else{
 			$options['cpt']['enabled'] = 0;
 		}
-		
-		$option_name = 'menu-position';
-		$options['cpt']['menu-position'] = sanitize_text_field(intval($_POST[$option_name]));
 		
 		/*
 		* UPDATE POST TYPE AND FORMAT
