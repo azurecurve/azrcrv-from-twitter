@@ -24,13 +24,13 @@
 		?>
 
 		<h2 class="nav-tab-wrapper nav-tab-wrapper-azrcrv-ft">
-			<a class="nav-tab <?php if ($show_app_settings == true){ echo 'nav-tab-active'; } ?>" data-item=".tabs-1" href="#tabs-1"><?php _e('App Settings', 'from-twitter') ?></a>
-			<a class="nav-tab <?php if ($show_app_settings == false){ echo 'nav-tab-active'; } ?>" data-item=".tabs-2" href="#tabs-2"><?php _e('Post Settings', 'from-twitter') ?></a>
-			<a class="nav-tab" data-item=".tabs-3" href="#tabs-3"><?php _e('Tweet Settings', 'from-twitter') ?></a>
-			<a class="nav-tab" data-item=".tabs-4" href="#tabs-4"><?php _e('Tweet Queries', 'from-twitter') ?></a>
-			<a class="nav-tab" data-item=".tabs-5" href="#tabs-5"><?php _e('Cron Settings', 'from-twitter') ?></a>
+			<a class="nav-tab <?php if ($show_app_settings == true){ echo 'nav-tab-active'; } ?>" data-item=".tabs-1" href="#tabs-1"><?php esc_html_e('App Settings', 'from-twitter') ?></a>
+			<a class="nav-tab <?php if ($show_app_settings == false){ echo 'nav-tab-active'; } ?>" data-item=".tabs-2" href="#tabs-2"><?php esc_html_e('Post Settings', 'from-twitter') ?></a>
+			<a class="nav-tab" data-item=".tabs-3" href="#tabs-3"><?php esc_html_e('Tweet Settings', 'from-twitter') ?></a>
+			<a class="nav-tab" data-item=".tabs-4" href="#tabs-4"><?php esc_html_e('Tweet Queries', 'from-twitter') ?></a>
+			<a class="nav-tab" data-item=".tabs-5" href="#tabs-5"><?php esc_html_e('Cron Settings', 'from-twitter') ?></a>
 			
-			<input type="submit" style="float: left; margin: 6px; margin-bottom: 3px " value="<?php _e('Save Settings', 'from-twitter'); ?>" class="button-primary" id="submit" name="submit" />
+			<input type="submit" style="float: left; margin: 6px; margin-bottom: 3px " value="<?php esc_html_e('Save Settings', 'from-twitter'); ?>" class="button-primary" id="submit" name="submit" />
 		</h2>
 
 		<div>
@@ -38,13 +38,13 @@
 			<div class="azrcrv_ft_tabs <?php if ($show_app_settings == false){ echo 'invisible'; } ?> tabs-1">
 				<p class="azrcrv_ft_horiz">
 					
-					<h3><?php _e('API Access', 'from-twitter'); ?></h3>
+					<h3><?php esc_html_e('API Access', 'from-twitter'); ?></h3>
 					
 					<table class="form-table">
 					
 						<tr>
 							<th scope="row">
-								<?php _e('Consumer Key', 'from-twitter'); ?>
+								<?php esc_html_e('Consumer Key', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="text" name="access-key" class="regular-text" value="<?php echo $options['api']['access-key']; ?>">
@@ -53,7 +53,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Consumer Secret', 'from-twitter'); ?>
+								<?php esc_html_e('Consumer Secret', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="text" name="access-secret" class="regular-text" value="<?php echo $options['api']['access-secret']; ?>">
@@ -62,7 +62,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Access Token', 'from-twitter'); ?>
+								<?php esc_html_e('Access Token', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="text" name="access-token" class="regular-text" value="<?php echo $options['api']['access-token']; ?>">
@@ -71,7 +71,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Access Token Secret', 'from-twitter'); ?>
+								<?php esc_html_e('Access Token Secret', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="text" name="access-token-secret" class="regular-text" value="<?php echo $options['api']['access-token-secret']; ?>">
@@ -80,18 +80,18 @@
 						
 					</table>
 					
-					<h3><?php _e('Custom Post Type', 'from-twitter'); ?></h3>
+					<h3><?php esc_html_e('Custom Post Type', 'from-twitter'); ?></h3>
 					
 					<table class="form-table">
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Enable Custom Post Type', 'from-twitter'); ?>
+								<?php esc_html_e('Enable Custom Post Type', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input name="enable-cpt" type="checkbox" id="enable-cpt" value="1" <?php checked('1', $options['cpt']['enabled']); ?> />
 								<label for="enable-cpt"><span class="description">
-									<?php _e('Create custom post type for retrieved tweets.', 'from-twitter'); ?>
+									<?php esc_html_e('Create custom post type for retrieved tweets.', 'from-twitter'); ?>
 								</span></label
 							</td>
 						</tr>
@@ -107,7 +107,7 @@
 					
 						<tr>
 							<th scope="row">
-								<?php _e('Post Type', 'from-twitter'); ?>
+								<?php esc_html_e('Post Type', 'from-twitter'); ?>
 							</th>
 							<td>
 								<?php
@@ -143,7 +143,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Post Format', 'from-twitter'); ?>
+								<?php esc_html_e('Post Format', 'from-twitter'); ?>
 							</th>
 							<td>
 								<?php
@@ -175,7 +175,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Post Status', 'from-twitter'); ?>
+								<?php esc_html_e('Post Status', 'from-twitter'); ?>
 							</th>
 							<td>
 								<?php
@@ -196,7 +196,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Post Author', 'from-twitter'); ?>
+								<?php esc_html_e('Post Author', 'from-twitter'); ?>
 							</th>
 							<td>
 								<?php
@@ -230,7 +230,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Number of items', 'from-twitter'); ?>
+								<?php esc_html_e('Number of items', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="number" min=1 max=100 step=1 name="tweet-number" class="small-text" value="<?php echo $options['tweet']['number']; ?>">
@@ -239,31 +239,31 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Exclude replies', 'from-twitter'); ?>
+								<?php esc_html_e('Exclude replies', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input name="tweet-exclude-replies" type="checkbox" id="tweet-exclude-replies" value="1" <?php checked('1', $options['tweet']['exclude-replies']); ?> />
 								<label for="tweet-exclude-replies"><span class="description">
-									<?php _e('Exclude replies in retrieved tweets.', 'from-twitter'); ?>
+									<?php esc_html_e('Exclude replies in retrieved tweets.', 'from-twitter'); ?>
 								</span></label
 							</td>
 						</tr>
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Download images', 'from-twitter'); ?>
+								<?php esc_html_e('Download images', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input name="tweet-download-images" type="checkbox" id="tweet-download-images" value="1" <?php checked('1', $options['tweet']['download-images']); ?> />
 								<label for="tweet-download-images"><span class="description">
-									<?php _e('Download images in tweets.', 'from-twitter'); ?>
+									<?php esc_html_e('Download images in tweets.', 'from-twitter'); ?>
 								</span></label
 							</td>
 						</tr>
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Image Download Method', 'from-twitter'); ?>
+								<?php esc_html_e('Image Download Method', 'from-twitter'); ?>
 							</th>
 							<td>
 								<?php
@@ -284,7 +284,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Title', 'from-twitter'); ?>
+								<?php esc_html_e('Title', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="text" name="tweet-title" class="regular-text" value="<?php echo $options['tweet']['title']; ?>"><br />
@@ -306,7 +306,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Content', 'from-twitter'); ?>
+								<?php esc_html_e('Content', 'from-twitter'); ?>
 							</th>
 							<td>
 								<textarea name="tweet-content" rows="4" cols="50"><?php echo $options['tweet']['content']; ?></textarea><br />
@@ -332,12 +332,12 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Store all tweet data', 'from-twitter'); ?>
+								<?php esc_html_e('Store all tweet data', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input name="tweet-store-all-data" type="checkbox" id="tweet-store-all-data" value="1" <?php checked('1', $options['tweet']['store-all-data']); ?> />
 								<label for="tweet-store-all-data"><span class="description">
-									<?php _e('Store all tweet data (if unmarked, only the tweet id is recorded).', 'from-twitter'); ?>
+									<?php esc_html_e('Store all tweet data (if unmarked, only the tweet id is recorded).', 'from-twitter'); ?>
 								</span></label
 							</td>
 						</tr>
@@ -353,9 +353,9 @@
 					
 					<table class="form table azrcrv-ft-queries">
 						<tr>
-							<th><?php _e('Query', 'from-twitter'); ?></th>
-							<th><?php _e('Tags', 'from-twitter'); ?></th>
-							<th><?php _e('Delete', 'from-twitter'); ?></th>
+							<th><?php esc_html_e('Query', 'from-twitter'); ?></th>
+							<th><?php esc_html_e('Tags', 'from-twitter'); ?></th>
+							<th><?php esc_html_e('Delete', 'from-twitter'); ?></th>
 						</tr>
 						<?php
 						$query_count = 0;
@@ -398,7 +398,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Frequency', 'from-twitter'); ?>
+								<?php esc_html_e('Frequency', 'from-twitter'); ?>
 							</th>
 							<td>
 								<?php
@@ -425,7 +425,7 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Time', 'from-twitter'); ?>
+								<?php esc_html_e('Time', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input type="number" min=0 max=23 step=1 name="cron-time-hour" style="width: 50px; " value="<?php echo substr('0'.$options['cron']['time']['hour'], -2); ?>" onchange="if(parseInt(this.value,10)<10)this.value='0'+this.value;" />:<input type="number" min=0 max=59 step=1 name="cron-time-minute" style="width: 50px; " value="<?php echo substr('0'.$options['cron']['time']['minute'], -2); ?>" onchange="if(parseInt(this.value,10)<10)this.value='0'+this.value;" />
@@ -434,12 +434,12 @@
 						
 						<tr>
 							<th scope="row">
-								<?php _e('Enable cron', 'from-twitter'); ?>
+								<?php esc_html_e('Enable cron', 'from-twitter'); ?>
 							</th>
 							<td>
 								<input name="cron-enabled" type="checkbox" id="cron-enabled" value="1" <?php checked('1', $options['cron']['enabled']); ?> />
 								<label for="cron-enabled"><span class="description">
-									<?php _e('Enable cron to retrieve tweets.', 'from-twitter'); ?>
+									<?php esc_html_e('Enable cron to retrieve tweets.', 'from-twitter'); ?>
 								</span></label
 							</td>
 						</tr>
@@ -455,7 +455,7 @@
 			
 		</div>
 		
-		<input type="submit" style="margin-top: 6px;" value="<?php _e('Save Settings', 'from-twitter'); ?>" class="button-primary" id="submit" name="submit" />
+		<input type="submit" style="margin-top: 6px;" value="<?php esc_html_e('Save Settings', 'from-twitter'); ?>" class="button-primary" id="submit" name="submit" />
 		
 	</form>
 	

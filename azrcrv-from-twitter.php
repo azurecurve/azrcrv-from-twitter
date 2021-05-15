@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: From Twitter
  * Description: Automate the rerieval of tweets from Twitter to your ClassicPress site.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/from-twitter/
@@ -183,20 +183,20 @@ function azrcrv_ft_create_tweet_cpt() {
 								'tweet',
 								array(
 										'labels' => array(
-															'name' => __('From Twitter', 'from-twitter'),
-															'singular_name' => __('Tweet', 'from-twitter'),
-															'all_items' => __('All Tweets', 'from-twitter'),
-															'add_new' => __('Add New', 'from-twitter'),
-															'add_new_item' => __('Add New Tweet', 'from-twitter'),
-															'edit' => __('Edit', 'from-twitter'),
-															'edit_item' => __('Edit Tweet', 'from-twitter'),
-															'new_item' => __('New Tweet', 'from-twitter'),
-															'view' => __('View', 'from-twitter'),
-															'view_item' => __('View Tweet', 'from-twitter'),
-															'search_items' => __('Search Tweets', 'from-twitter'),
-															'not_found' => __('No Tweets found', 'from-twitter'),
-															'not_found_in_trash' => __('No Tweets found in Trash', 'from-twitter'),
-															'parent' => __('Parent Tweet', 'from-twitter')
+															'name' => esc_html__('From Twitter', 'from-twitter'),
+															'singular_name' => esc_html__('Tweet', 'from-twitter'),
+															'all_items' => esc_html__('All Tweets', 'from-twitter'),
+															'add_new' => esc_html__('Add New', 'from-twitter'),
+															'add_new_item' => esc_html__('Add New Tweet', 'from-twitter'),
+															'edit' => esc_html__('Edit', 'from-twitter'),
+															'edit_item' => esc_html__('Edit Tweet', 'from-twitter'),
+															'new_item' => esc_html__('New Tweet', 'from-twitter'),
+															'view' => esc_html__('View', 'from-twitter'),
+															'view_item' => esc_html__('View Tweet', 'from-twitter'),
+															'search_items' => esc_html__('Search Tweets', 'from-twitter'),
+															'not_found' => esc_html__('No Tweets found', 'from-twitter'),
+															'not_found_in_trash' => esc_html__('No Tweets found in Trash', 'from-twitter'),
+															'parent' => esc_html__('Parent Tweet', 'from-twitter')
 														),
 										'public' => true,
 										'menu_position' => 50,
@@ -219,21 +219,21 @@ function azrcrv_ft_create_tag_taxonomy()
 {
   // Add new taxonomy, NOT hierarchical (like tags)
   $labels = array(
-					'name' => __('Tags', 'from-twitter'),
-					'singular_name' => __('Tag', 'from-twitter'),
-					'search_items' =>  __('Search Tags', 'from-twitter'),
-					'popular_items' => __('Popular Tags', 'from-twitter'),
-					'all_items' => __('All Tags', 'from-twitter'),
+					'name' => esc_html__('Tags', 'from-twitter'),
+					'singular_name' => esc_html__('Tag', 'from-twitter'),
+					'search_items' =>  esc_html__('Search Tags', 'from-twitter'),
+					'popular_items' => esc_html__('Popular Tags', 'from-twitter'),
+					'all_items' => esc_html__('All Tags', 'from-twitter'),
 					'parent_item' => null,
 					'parent_item_colon' => null,
-					'edit_item' => __('Edit Tag', 'from-twitter'), 
-					'update_item' => __('Update Tag', 'from-twitter'),
-					'add_new_item' => __('Add New Tag', 'from-twitter'),
-					'new_item_name' => __('New Tag Name', 'from-twitter'),
-					'separate_items_with_commas' => __('Separate tags with commas', 'from-twitter'),
-					'add_or_remove_items' => __('Add or remove tags', 'from-twitter'),
-					'choose_from_most_used' => __('Choose from the most used tags', 'from-twitter'),
-					'menu_name' => __('Tags', 'from-twitter'),
+					'edit_item' => esc_html__('Edit Tag', 'from-twitter'), 
+					'update_item' => esc_html__('Update Tag', 'from-twitter'),
+					'add_new_item' => esc_html__('Add New Tag', 'from-twitter'),
+					'new_item_name' => esc_html__('New Tag Name', 'from-twitter'),
+					'separate_items_with_commas' => esc_html__('Separate tags with commas', 'from-twitter'),
+					'add_or_remove_items' => esc_html__('Add or remove tags', 'from-twitter'),
+					'choose_from_most_used' => esc_html__('Choose from the most used tags', 'from-twitter'),
+					'menu_name' => esc_html__('Tags', 'from-twitter'),
 				); 
 
   register_taxonomy(
@@ -294,8 +294,8 @@ function azrcrv_ft_create_admin_menu(){
 	}
 	
 	add_submenu_page("azrcrv-plugin-menu"
-						,__("From Twitter", "from-twitter")
-						,__("From Twitter", "from-twitter")
+						,esc_html__("From Twitter", "from-twitter")
+						,esc_html__("From Twitter", "from-twitter")
 						,'manage_options'
 						,'azrcrv-ft'
 						,'azrcrv_ft_display_options');
@@ -317,7 +317,7 @@ function azrcrv_ft_create_tweet_metaboxes() {
 	
 	add_meta_box(
 					'azrcrv-ft-tweet-details-metabox', // Metabox ID
-					__('Tweet Data', 'from-twitter'), // Title to display
+					esc_html__('Tweet Data', 'from-twitter'), // Title to display
 					'azrcrv_ft_render_tweet_details_metabox', // Function to call that contains the metabox content
 					array($options['post']['type']), // Post type to display metabox on
 					'normal', // Where to put it (normal = main colum, side = sidebar, etc.)
@@ -326,7 +326,7 @@ function azrcrv_ft_create_tweet_metaboxes() {
 	
 	add_meta_box(
 					'azrcrv-ft-tweet-images-metabox',
-					__('Tweet Images', 'from-twitter'),
+					esc_html__('Tweet Images', 'from-twitter'),
 					'azrcrv_ft_render_tweet_images_metabox',
 					array($options['post']['type']),
 					'normal',
@@ -465,7 +465,7 @@ function azrcrv_ft_render_tweet_images_metabox(){
 function azrcrv_ft_display_options(){
 
 	if (!current_user_can('manage_options')) {
-		wp_die(__('You do not have sufficient permissions to access this page.', 'from-twitter'));
+		wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'from-twitter'));
 	}
 	
 	$options = azrcrv_ft_get_option('azrcrv-ft');

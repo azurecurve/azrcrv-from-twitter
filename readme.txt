@@ -1,12 +1,12 @@
 === From Twitter ===
 
 Description:	Automate the retrieval of tweets from Twitter and create posts on your ClassicPress site.
-Version:		1.0.0
+Version:		1.1.0
 Tags:			tweets,twitter,automatic 
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/to-twitter/
-Download link:	https://github.com/azurecurve/azrcrv-from-twitter/releases/download/v1.0.0/azrcrv-from-twitter.zip
+Download link:	https://github.com/azurecurve/azrcrv-from-twitter/releases/download/v1.1.0/azrcrv-from-twitter.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -61,6 +61,11 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 
 # Changelog
 
+### [Version 1.1.0](https://github.com/azurecurve/azrcrv-from-twitter/releases/tag/v1.1.0)
+ * Add uninstall.
+ * Update azurecurve menu and logo.
+ * Update translations to escape strings.
+ 
 ### [Version 1.0.0](https://github.com/azurecurve/azrcrv-from-twitter/releases/tag/v1.0.0)
  * Initial release.
 

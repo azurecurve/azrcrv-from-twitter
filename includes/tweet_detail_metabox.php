@@ -10,7 +10,7 @@ echo '<fieldset>
 			</colgroup>
 			<tr>
 				<th>
-					'.__('Tweet ID', 'from-twitter').'
+					'.esc_html__('Tweet ID', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-id-str" id="tweet-id-str" class="large-text" value="'.esc_attr__($tweet_id_str).'" />
@@ -30,7 +30,7 @@ if ($options['tweet']['store-all-data'] == 1){
 	
 	echo	'<tr>
 				<th>
-					'.__('Query String', 'from-twitter').'
+					'.esc_html__('Query String', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-query" id="tweet-query" class="large-text" value="'.esc_attr__($tweet_query).'" />
@@ -38,7 +38,7 @@ if ($options['tweet']['store-all-data'] == 1){
 			</tr>
 			<tr>
 				<th>
-					'.__('URL', 'from-twitter').'
+					'.esc_html__('URL', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-url" id="tweet-url" class="large-text" value="'.esc_url($tweet_url).'" />
@@ -46,7 +46,7 @@ if ($options['tweet']['store-all-data'] == 1){
 			</tr>
 			<tr>
 				<th>
-					'.__('Created At', 'from-twitter').'
+					'.esc_html__('Created At', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-created-at" id="tweet-created-at" class="large-text" value="'.esc_attr__($tweet_created_at).'" />
@@ -54,7 +54,7 @@ if ($options['tweet']['store-all-data'] == 1){
 			</tr>
 			<tr>
 				<th>
-					'.__('User ID', 'from-twitter').'
+					'.esc_html__('User ID', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-user-id-str" id="tweet-user-id-str" class="large-text" value="'.esc_attr__($tweet_user_id_str).'" />
@@ -62,7 +62,7 @@ if ($options['tweet']['store-all-data'] == 1){
 			</tr>
 			<tr>
 				<th>
-					'.__('Username', 'from-twitter').'
+					'.esc_html__('Username', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-user-name" id="tweet-user-name" class="large-text" value="'.esc_attr__($tweet_user_name).'" />
@@ -70,7 +70,7 @@ if ($options['tweet']['store-all-data'] == 1){
 			</tr>
 			<tr>
 				<th>
-					'.__('Screen Name', 'from-twitter').'
+					'.esc_html__('Screen Name', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-user-screen-name" id="tweet-user-screen-name" class="large-text" value="'.esc_attr__($tweet_user_screen_name).'" />
@@ -78,7 +78,7 @@ if ($options['tweet']['store-all-data'] == 1){
 			</tr>
 			<tr>
 				<th>
-					'.__('Profile Image URL', 'from-twitter').'
+					'.esc_html__('Profile Image URL', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="tweet-user-profile-image-url" id="tweet-user-profile-image-url" class="large-text" value="'.esc_url($tweet_user_profile_image_url).'" />
@@ -93,7 +93,7 @@ if ($options['tweet']['store-all-data'] == 1){
 		
 		echo	'<tr>
 					<th>
-						'.__('In Reply to Tweet', 'from-twitter').'
+						'.esc_html__('In Reply to Tweet', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="in-reply-to-status-id-str" id="in-reply-to-status-id-str" class="large-text" value="'.esc_attr__($tweet_in_reply_to_status_id_str).'" />
@@ -101,7 +101,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('In Reply to User ID', 'from-twitter').'
+						'.esc_html__('In Reply to User ID', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="in-reply-to-user-id-str" id="in-reply-to-user-id-str" class="large-text" value="'.esc_attr__($tweet_in_reply_to_user_id_str).'" />
@@ -109,7 +109,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('In Reply to Screen Name', 'from-twitter').'
+						'.esc_html__('In Reply to Screen Name', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="in-reply-to-user-screen-name" id="in-reply-to-user-screen-name" class="large-text" value="'.esc_attr__($tweet_in_reply_to_user_screen_name).'" />
@@ -117,7 +117,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('Quoted Tweet ID', 'from-twitter').'
+						'.esc_html__('Quoted Tweet ID', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="quoted-status-id-str" id="quoted-status-id-str" class="large-text" value="'.esc_attr__($tweet_quoted_status_id_str).'" />
@@ -135,7 +135,7 @@ if ($options['tweet']['store-all-data'] == 1){
 		
 		echo	'<tr>
 					<th>
-						'.__('Retweeted Tweet ID', 'from-twitter').'
+						'.esc_html__('Retweeted Tweet ID', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="retweeted-id-str" id="retweeted-id-str" class="large-text" value="'.esc_attr__($retweeted_id_str).'" />
@@ -143,7 +143,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('Retweet Created At', 'from-twitter').'
+						'.esc_html__('Retweet Created At', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="retweeted-created-at" id="retweeted-created-at" class="large-text" value="'.esc_attr__($retweeted_created_at).'" />
@@ -151,7 +151,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('Retweet User ID', 'from-twitter').'
+						'.esc_html__('Retweet User ID', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="retweeted-user-id-str" id="retweeted-user-id-str" class="large-text" value="'.esc_attr__($retweeted_user_id_str).'" />
@@ -159,7 +159,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('Retweet User Name', 'from-twitter').'
+						'.esc_html__('Retweet User Name', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="retweeted-user-name" id="retweeted-user-name" class="large-text" value="'.esc_attr__($retweeted_user_name).'" />
@@ -167,7 +167,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('Retweet User Screen Name', 'from-twitter').'
+						'.esc_html__('Retweet User Screen Name', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="retweeted-user-screen-name" id="retweeted-user-screen-name" class="large-text" value="'.esc_attr__($retweeted_user_screen_name).'" />
@@ -175,7 +175,7 @@ if ($options['tweet']['store-all-data'] == 1){
 				</tr>
 				<tr>
 					<th>
-						'.__('Retweet Profile Image URL', 'from-twitter').'
+						'.esc_html__('Retweet Profile Image URL', 'from-twitter').'
 					</th>
 					<td>
 						<input type="text" name="tweet-user-profile-image-url" id="tweet-user-profile-image-url" class="large-text" value="'.esc_url($retweeted_user_profile_image_url).'" />
@@ -188,7 +188,7 @@ if ($options['tweet']['store-all-data'] == 1){
 		
 		echo '<tr>
 				<th>
-					'.__('Media 1 URL', 'from-twitter').'
+					'.esc_html__('Media 1 URL', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="media-1" id="media-1" class="large-text" value="'.esc_url($tweet_media_1).'" />
@@ -201,7 +201,7 @@ if ($options['tweet']['store-all-data'] == 1){
 		
 		echo '<tr>
 				<th>
-					'.__('Media 1 URL', 'from-twitter').'
+					'.esc_html__('Media 1 URL', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="media-2" id="media-2" class="large-text" value="'.esc_url($tweet_media_2).'" />
@@ -214,7 +214,7 @@ if ($options['tweet']['store-all-data'] == 1){
 		
 		echo '<tr>
 				<th>
-					'.__('Media 1 URL', 'from-twitter').'
+					'.esc_html__('Media 1 URL', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="media-3" id="media-3" class="large-text" value="'.esc_url($tweet_media_3).'" />
@@ -227,7 +227,7 @@ if ($options['tweet']['store-all-data'] == 1){
 		
 		echo '<tr>
 				<th>
-					'.__('Media 1 URL', 'from-twitter').'
+					'.esc_html__('Media 1 URL', 'from-twitter').'
 				</th>
 				<td>
 					<input type="text" name="media-4" id="media-4" class="large-text" value="'.esc_url($tweet_media_4).'" />
