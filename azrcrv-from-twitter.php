@@ -71,7 +71,7 @@ function azrcrv_ft_load_languages() {
 /**
  * Custom plugin image path.
  *
- * @since 1.12.0
+ * @since 1.1.0
  *
  */
 function azrcrv_ft_custom_image_path($path){
@@ -84,7 +84,7 @@ function azrcrv_ft_custom_image_path($path){
 /**
  * Custom plugin image url.
  *
- * @since 1.12.0
+ * @since 1.1.0
  *
  */
 function azrcrv_ft_custom_image_url($url){
@@ -97,7 +97,7 @@ function azrcrv_ft_custom_image_url($url){
 /**
  * Get options including defaults.
  *
- * @since 1.12.0
+ * @since 1.0.0
  *
  */
 function azrcrv_ft_get_option($option_name){
@@ -150,7 +150,7 @@ function azrcrv_ft_get_option($option_name){
 /**
  * Recursively parse options to merge with defaults.
  *
- * @since 1.14.0
+ * @since 1.0.0
  *
  */
 function azrcrv_ft_recursive_parse_args( $args, $defaults ) {
