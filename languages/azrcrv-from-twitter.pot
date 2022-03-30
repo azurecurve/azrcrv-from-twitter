@@ -1,0 +1,409 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: From Twitter\n"
+"POT-Creation-Date: 2021-12-27 17:56+0000\n"
+"PO-Revision-Date: 2019-02-24 18:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: translate@azurecurve.co.uk\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: azrcrv-from-twitter.php:186 azrcrv-from-twitter.php:297
+#: azrcrv-from-twitter.php:298
+msgid "From Twitter"
+msgstr ""
+
+#: azrcrv-from-twitter.php:187
+msgid "Tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:188
+msgid "All Tweets"
+msgstr ""
+
+#: azrcrv-from-twitter.php:189
+msgid "Add New"
+msgstr ""
+
+#: azrcrv-from-twitter.php:190
+msgid "Add New Tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:191
+msgid "Edit"
+msgstr ""
+
+#: azrcrv-from-twitter.php:192
+msgid "Edit Tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:193
+msgid "New Tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:194
+msgid "View"
+msgstr ""
+
+#: azrcrv-from-twitter.php:195
+msgid "View Tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:196
+msgid "Search Tweets"
+msgstr ""
+
+#: azrcrv-from-twitter.php:197
+msgid "No Tweets found"
+msgstr ""
+
+#: azrcrv-from-twitter.php:198
+msgid "No Tweets found in Trash"
+msgstr ""
+
+#: azrcrv-from-twitter.php:199
+msgid "Parent Tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:222 azrcrv-from-twitter.php:236
+#: includes/admin_page.php:357
+msgid "Tags"
+msgstr ""
+
+#: azrcrv-from-twitter.php:223
+msgid "Tag"
+msgstr ""
+
+#: azrcrv-from-twitter.php:224
+msgid "Search Tags"
+msgstr ""
+
+#: azrcrv-from-twitter.php:225
+msgid "Popular Tags"
+msgstr ""
+
+#: azrcrv-from-twitter.php:226
+msgid "All Tags"
+msgstr ""
+
+#: azrcrv-from-twitter.php:229
+msgid "Edit Tag"
+msgstr ""
+
+#: azrcrv-from-twitter.php:230
+msgid "Update Tag"
+msgstr ""
+
+#: azrcrv-from-twitter.php:231
+msgid "Add New Tag"
+msgstr ""
+
+#: azrcrv-from-twitter.php:232
+msgid "New Tag Name"
+msgstr ""
+
+#: azrcrv-from-twitter.php:233
+msgid "Separate tags with commas"
+msgstr ""
+
+#: azrcrv-from-twitter.php:234
+msgid "Add or remove tags"
+msgstr ""
+
+#: azrcrv-from-twitter.php:235
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: azrcrv-from-twitter.php:267 azrcrv-from-twitter.php:289
+msgid "Settings"
+msgstr ""
+
+#: azrcrv-from-twitter.php:288
+msgid "From Twitter Settings"
+msgstr ""
+
+#: azrcrv-from-twitter.php:320
+msgid "Tweet Data"
+msgstr ""
+
+#: azrcrv-from-twitter.php:329
+msgid "Tweet Images"
+msgstr ""
+
+#: azrcrv-from-twitter.php:455
+msgid "No images were attached to the tweet"
+msgstr ""
+
+#: azrcrv-from-twitter.php:468
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: azrcrv-from-twitter.php:480
+msgid "You do not have permissions to perform this action"
+msgstr ""
+
+#: includes/admin_page.php:7
+msgid "Settings have been saved."
+msgstr ""
+
+#: includes/admin_page.php:27
+msgid "App Settings"
+msgstr ""
+
+#: includes/admin_page.php:28
+msgid "Post Settings"
+msgstr ""
+
+#: includes/admin_page.php:29
+msgid "Tweet Settings"
+msgstr ""
+
+#: includes/admin_page.php:30
+msgid "Tweet Queries"
+msgstr ""
+
+#: includes/admin_page.php:31
+msgid "Cron Settings"
+msgstr ""
+
+#: includes/admin_page.php:33 includes/admin_page.php:458
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin_page.php:41
+msgid "API Access"
+msgstr ""
+
+#: includes/admin_page.php:47
+msgid "Consumer Key"
+msgstr ""
+
+#: includes/admin_page.php:56
+msgid "Consumer Secret"
+msgstr ""
+
+#: includes/admin_page.php:65
+msgid "Access Token"
+msgstr ""
+
+#: includes/admin_page.php:74
+msgid "Access Token Secret"
+msgstr ""
+
+#: includes/admin_page.php:83
+msgid "Custom Post Type"
+msgstr ""
+
+#: includes/admin_page.php:89
+msgid "Enable Custom Post Type"
+msgstr ""
+
+#: includes/admin_page.php:94
+msgid "Create custom post type for retrieved tweets."
+msgstr ""
+
+#: includes/admin_page.php:110
+msgid "Post Type"
+msgstr ""
+
+#: includes/admin_page.php:146
+msgid "Post Format"
+msgstr ""
+
+#: includes/admin_page.php:178
+msgid "Post Status"
+msgstr ""
+
+#: includes/admin_page.php:199
+msgid "Post Author"
+msgstr ""
+
+#: includes/admin_page.php:233
+msgid "Number of items"
+msgstr ""
+
+#: includes/admin_page.php:242
+msgid "Exclude replies"
+msgstr ""
+
+#: includes/admin_page.php:247
+msgid "Exclude replies in retrieved tweets."
+msgstr ""
+
+#: includes/admin_page.php:254
+msgid "Download images"
+msgstr ""
+
+#: includes/admin_page.php:259
+msgid "Download images in tweets."
+msgstr ""
+
+#: includes/admin_page.php:266
+msgid "Image Download Method"
+msgstr ""
+
+#: includes/admin_page.php:287
+msgid "Title"
+msgstr ""
+
+#: includes/admin_page.php:293
+#, php-format
+msgid ""
+"The following placeholders can be used in the title:\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>"
+msgstr ""
+
+#: includes/admin_page.php:309
+msgid "Content"
+msgstr ""
+
+#: includes/admin_page.php:314
+#, php-format
+msgid ""
+"The following placeholders can be used in content:\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>%s</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>"
+msgstr ""
+
+#: includes/admin_page.php:335
+msgid "Store all tweet data"
+msgstr ""
+
+#: includes/admin_page.php:340
+msgid "Store all tweet data (if unmarked, only the tweet id is recorded)."
+msgstr ""
+
+#: includes/admin_page.php:356
+msgid "Query"
+msgstr ""
+
+#: includes/admin_page.php:358
+msgid "Delete"
+msgstr ""
+
+#: includes/admin_page.php:401
+msgid "Frequency"
+msgstr ""
+
+#: includes/admin_page.php:428
+msgid "Time"
+msgstr ""
+
+#: includes/admin_page.php:437
+msgid "Enable cron"
+msgstr ""
+
+#: includes/admin_page.php:442
+msgid "Enable cron to retrieve tweets."
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:13
+msgid "Tweet ID"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:33
+msgid "Query String"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:41
+msgid "URL"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:49
+msgid "Created At"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:57
+msgid "User ID"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:65
+msgid "Username"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:73
+msgid "Screen Name"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:81
+msgid "Profile Image URL"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:96
+msgid "In Reply to Tweet"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:104
+msgid "In Reply to User ID"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:112
+msgid "In Reply to Screen Name"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:120
+msgid "Quoted Tweet ID"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:138
+msgid "Retweeted Tweet ID"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:146
+msgid "Retweet Created At"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:154
+msgid "Retweet User ID"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:162
+msgid "Retweet User Name"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:170
+msgid "Retweet User Screen Name"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:178
+msgid "Retweet Profile Image URL"
+msgstr ""
+
+#: includes/tweet_detail_metabox.php:191 includes/tweet_detail_metabox.php:204
+#: includes/tweet_detail_metabox.php:217 includes/tweet_detail_metabox.php:230
+msgid "Media 1 URL"
+msgstr ""
+
+#: libraries/updateclient/UpdateClient.class.php:191
+msgid "Compatible up to:"
+msgstr ""
+
+#: libraries/updateclient/UpdateClient.class.php:192
+msgid "Reviews"
+msgstr ""
+
+#: libraries/updateclient/UpdateClient.class.php:193
+msgid "Read all reviews"
+msgstr ""
+
+#: libraries/updateclient/UpdateClient.class.php:383
+msgid "View details"
+msgstr ""
